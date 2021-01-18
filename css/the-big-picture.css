@@ -4,9 +4,17 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 body {
-  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  background: url('/wallpaper.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+h1 {
+  color: #E5E5E5;
+}
+
+.col-lg-6 p {
+  color: #E5E5E5;
 }
