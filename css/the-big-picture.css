@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 body {
-  background: url('/background.jpg') no-repeat center center fixed;
+  background: url('/imgs/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
