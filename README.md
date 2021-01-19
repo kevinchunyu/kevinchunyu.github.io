@@ -1,6 +1,7 @@
 # Kevin Ko
+https://kevinchunyu.github.io/
 
-| <img src="imgs/me.jpg" alt="personal_image" width="300" /> | kevin11@uw.edu    http://www.linkedin.com/in/kevinkochunyu |
+| <img src="imgs/me.jpg" alt="personal_image" width="300" /> | kevin11@uw.edu   http://www.linkedin.com/in/kevinkochunyu |
 |-------------------------------------------------------|------------------------------------------------------------|
 
 # A Little about me
