@@ -1,0 +1,20 @@
+
+.experience-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.experience-title {
+    font-weight: 800;
+    margin-left: 20%;
+}
+
+.m-left {
+    margin-left: 20%;
+}
+
+.experience-descr {
+    margin-right: 20%;
+}
