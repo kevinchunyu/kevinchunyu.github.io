@@ -1,15 +1,11 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.png'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
-
+import ME from '../../assets/stickman.png'
 
 const About = () => {
   return (
     <section id="about">
-      <h5>My Story</h5>
+      <h5>My Journey</h5>
       <h2>About Me</h2>
       <div className = "container about__container">
         <div className="about__me">
@@ -18,34 +14,23 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Year Working</small>
-            </article>
-          </div>
-          <div className="about__cards">
-            <article className='about__card'>
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>300+ Clients Worldwide</small>
-            </article>
-          </div>
-          <div className="about__cards">
-            <article className='about__card'>
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
-            </article>
-          </div>
-
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, facere. Quo, reiciendis in possimus ipsum architecto recusandae laboriosam omnis 
-            distinctio expedita dolores iste dolore officia, repellat animi, quidem odio libero?
+          <h4 className="text-light">Who am I and where I'm from</h4>
+          <p className="about-me-p mb-1">
+            I am a graduating senior from the University of Washington - Seattle. Currently majoring in both Data Science and Economics
+            and looking for data science and software development opportunities.
+          </p>
+          <p className="about-me-p">
+            I was born in the United States, grew up in Indonesia, and had Taiwanese parents. Growing up, often, I felt like I was
+            from everywhere but nowhere at the same time, sometimes seemingly distant from a particular culture but sometimes yet
+            so close. Through multiple struggles, identity crises, and searching for what I want to do, I have landed here, aspiring
+            to use code to make an impact in this world. :)
           </p>
 
-          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+          <p id="extra-p" className="about-me-p">
+            To want to read more in-depth about my journey, take a quick scroll through the
+            <a> blog section </a> of this site!
+          </p>
+
         </div>
       </div>
     </section>
