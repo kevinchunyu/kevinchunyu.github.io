@@ -12,7 +12,6 @@ const Header = () => {
           <h1>Kevin Ko</h1>
           <Location />
           <h5 className='text-light'>A Detail-oriented, Proficient Tinkerer :)</h5>
-          <a href="#contact" className='scroll__down'>Scroll Down</a>
         </div>
 
       </div>

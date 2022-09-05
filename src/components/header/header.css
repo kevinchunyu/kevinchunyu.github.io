@@ -19,15 +19,6 @@ header {
     gap: 1rem;
 }
 
-/* === scroll down === */
-.scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-}
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
@@ -40,9 +31,5 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
-    }
-
-    .header__socials, .scroll__down {
-        display: none;
     }
 }
