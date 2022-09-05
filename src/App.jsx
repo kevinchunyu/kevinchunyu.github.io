@@ -5,8 +5,6 @@ import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Contact from './components/contacts/Contact'
 
-
-
 const App = () => {
   return (
     <>

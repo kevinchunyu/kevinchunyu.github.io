@@ -2,7 +2,6 @@ import React from 'react'
 import './header.css'
 import Location from './location'
 
-
 const Header = () => {
   return (
     <header>
