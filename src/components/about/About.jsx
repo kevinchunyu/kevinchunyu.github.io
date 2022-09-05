@@ -4,7 +4,7 @@ import ME from '../../assets/stickman.png'
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="center-parent-div">
       <h5>My Journey</h5>
       <h2>About Me</h2>
       <div className = "container about__container">
