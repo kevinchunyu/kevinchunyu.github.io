@@ -1,4 +1,8 @@
 
+#experience {
+    padding-top: 5rem;
+}
+
 .experience-div {
     display: flex;
     flex-direction: row;
@@ -8,7 +12,6 @@
 
 .experience-title {
     font-weight: 800;
-    margin-left: 20%;
 }
 
 .m-left {
@@ -17,4 +20,8 @@
 
 .experience-descr {
     margin-right: 20%;
+}
+
+h2{
+    text-align: center;
 }

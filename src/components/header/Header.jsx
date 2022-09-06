@@ -4,7 +4,7 @@ import Location from './location'
 
 const Header = () => {
   return (
-    <header>
+    <header id="header">
       <div className='container header__container'>
         <div>
           <h5>Hello I'm</h5>

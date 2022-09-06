@@ -11,12 +11,12 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #1B5685;
+    --color-bg-variant: #4373C8;
+    --color-primary: #C9E4F2;
+    --color-primary-variant: #9EBBD4;
     --color-white: #fff;
-    --color-light: rgba(255,255,255, 0.6);
+    --color-light: #73C2F6;
 
     --transition: all 400ms ease;
 
@@ -131,6 +131,14 @@ img {
 
 .mt-1 {
     margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
 }
 
 
