@@ -1,0 +1,9 @@
+.linkContainer {
+    display: flex;
+    padding: 1rem 3rem;
+    justify-content: flex-end;
+}
+
+.linkDiv {
+    padding: 0 2vh 0 2vh;
+}

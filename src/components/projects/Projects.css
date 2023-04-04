@@ -1,0 +1,42 @@
+.allProjectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.projectContainer {
+    width: 35%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    transition: all ease 200ms;
+}
+
+.projectContainer:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    border-bottom: solid;
+}
+
+.projectContainerLeft {
+    width: 30%;
+}
+
+.projectContainerRight {
+    width: 70%;
+    padding-top: 1em;
+}
+
+#lgbtqspace, #plenum, #kko{
+    height: 100%;
+    padding: 1em;
+    width: auto;
+    opacity: 0.6;
+}
+
+#snorlax {
+    height: 6em;
+    width: auto;
+    margin: 2em 0 2em 0;
+}

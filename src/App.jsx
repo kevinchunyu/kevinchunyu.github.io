@@ -1,30 +1,25 @@
-import {React, Component} from 'react'
 import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
+import NavBar from './components/Navbar/Navbar'
 import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Contact from './components/contacts/Contact'
-import ReactGA from 'react-ga';
+import Projects from './components/projects/Projects'
+import Contact from './components/contact/contact'
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import './index.css'
 
-class App extends Component {
-  setGA = () =>  {
-    ReactGA.initialize('G-R4HYR6HY9X');
-    ReactGA.pageview(window.location.pathname);
-  };
-  componentDidMount() {
-    this.setGA();
-  }
-  render() {
-    return (
-      <>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Contact />
-      </>
-    );
-  }
+import React from 'react'
+
+function App() {
+  return (
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route index element = {<Header />} />
+        <Route path='about' element={<About />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='contact' element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App

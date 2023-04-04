@@ -1,5 +1,5 @@
-header {
-    height: 100vh;
+#header {
+    height: 90vh;
 }
 
 .header__container {
@@ -8,7 +8,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 
@@ -18,16 +17,6 @@ header {
     justify-content: center;
     gap: 1rem;
 }
-
-#navigation {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    right: 0;
-    margin: 2rem 3rem 0 0;
-}
-
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {

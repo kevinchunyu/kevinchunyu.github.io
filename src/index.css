@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-bg: #1B5685;
+    --color-bg: #19376D;
     --color-bg-variant: #4373C8;
     --color-primary: #C9E4F2;
     --color-primary-variant: #9EBBD4;
@@ -55,8 +55,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
-    height: 100vh;
+    height: 80vh;
 }
 
 section > h2, section > h5 {
@@ -104,12 +103,6 @@ a:hover {
     color: var(--color-bg);
 }
 
-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
-
 .center-parent-div {
     display: flex;
     flex-direction: column;
@@ -144,7 +137,7 @@ img {
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
-    .containter {
+    .container {
         width: var(--container-width-md);
     }
 
@@ -155,7 +148,7 @@ img {
 
 /* ===================== MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
-    .containter {
+    .container {
         width: var(--container-width-sm);
     }
 

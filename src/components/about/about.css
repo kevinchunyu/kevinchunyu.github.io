@@ -1,12 +1,15 @@
-
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 5%;
 }
 
-.about__me-image {
-    width: 100%;
+#me {
+    width: 80%;
+    height: auto;
+    opacity: 0.8;
+    margin-left: 5em;
+    border-radius: 0.6em;
 }
 
 .about-me-p {
