@@ -1,15 +1,21 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me.JPG'
+import {motion as m} from 'framer-motion'
 
 const About = () => {
   return (
-    <section id="about" className="center-parent-div">
+    <m.section id="about" className="center-parent-div"
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      transition={{delay: .25, duration: .5, ease: 'easeOut'}}
+      exit={{opacity: 0}}
+    >
       <h5>My Journey</h5>
       <h2>About Me</h2>
       <div className = "container about__container">
         <div className="about__me">
-            <img id= "me" src={ME} alt="About Image"></img>
+            <img id= "me" src={ME} alt="About"></img>
         </div>
         <div className="about__content">
           <h4 className="text-light">Who am I and where I'm from</h4>
@@ -25,7 +31,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </section>
+    </m.section>
   )
 }
 
