@@ -1,5 +1,4 @@
 #about {
-    border: 1px solid pink;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,10 +11,6 @@
     justify-content: center;
     gap: 1rem;
     margin: 0 10% 0 10%;
-}
-
-.about__me {
-    border: 1px solid pink;
 }
 
 #me {
