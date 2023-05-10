@@ -6,10 +6,9 @@
 }
 
 .projectContainer {
-    width: 35%;
-    height: 15vh;
+    width: 40%;
+    height: auto;
     display: flex;
-    justify-content: center;
     transition: all ease 200ms;
 }
 
@@ -20,11 +19,11 @@
 }
 
 .projectContainerLeft {
-    width: 30%;
+    width: 100px;
+    height: 100px;
 }
 
 .projectContainerRight {
-    width: 70%;
     padding-top: 1em;
 }
 

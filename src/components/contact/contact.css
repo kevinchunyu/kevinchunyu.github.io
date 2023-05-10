@@ -2,4 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+#contact__content {
+    max-width: 30rem;
+    margin: 2rem;
 }

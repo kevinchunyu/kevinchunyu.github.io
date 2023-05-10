@@ -5,7 +5,7 @@ import {motion as m} from 'framer-motion'
 
 const About = () => {
   return (
-    <m.section id="about" className="center-parent-div"
+    <m.section id="about"
       intial={{opacity: 0}}
       animate={{opacity: 1}}
       transition={{delay: .25, duration: .5, ease: 'easeOut'}}
@@ -13,7 +13,7 @@ const About = () => {
     >
       <h5>My Journey</h5>
       <h2>About Me</h2>
-      <div className = "container about__container">
+      <div className = "about__container">
         <div className="about__me">
             <img id= "me" src={ME} alt="About"></img>
         </div>

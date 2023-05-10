@@ -18,6 +18,11 @@
     gap: 1rem;
 }
 
+section {
+    min-height: calc(100vh - 5rem);
+    font-size: 80%;
+}
+
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
     header {

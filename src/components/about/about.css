@@ -1,28 +1,26 @@
+#about {
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .about__container {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 10% 0 10%;
+}
+
+.about__me {
+    border: 1px solid pink;
 }
 
 #me {
-    width: 80%;
-    height: auto;
+    width: 250px;
+    height: 250px;
     opacity: 0.8;
-    margin-left: 5em;
     border-radius: 0.6em;
-}
-
-.about-me-p {
-    font-size: 14px;
-}
-
-#extra-p {
-    margin-top: 1rem;
-}
-
-.about__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
 }

@@ -9,15 +9,15 @@ function Navbar() {
           <div className='linkDiv'>
             <NavLink to="/">Home</NavLink>
           </div>
-          |
+          .
           <div className='linkDiv'>
             <NavLink to="/about">About</NavLink>
           </div>
-          |
+          .
           <div className='linkDiv'>
             <NavLink to="/projects">Projects</NavLink>
           </div>
-          |
+          .
           <div className='linkDiv'>
             <NavLink to="/contact">Contact</NavLink>
           </div>

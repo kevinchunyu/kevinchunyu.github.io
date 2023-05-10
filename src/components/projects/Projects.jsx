@@ -9,13 +9,12 @@ import {motion as m} from 'framer-motion'
 function Projects() {
   return (
     <>
-      <m.div className="allProjectContainer"
+      <m.section className="allProjectContainer"
         intial={{opacity: 0}}
         animate={{opacity: 1}}
         exit={{opacity: 0}}
       >
         {/* one div is one project card*/}
-        <img id="snorlax" src={Snorlax} alt="snorlax gif"></img>
         <div className='projectContainer'>
           <div className='projectContainerLeft'>
             <img id="kko" src={Kko} alt="kko logo"></img>
@@ -43,7 +42,7 @@ function Projects() {
             <p>A website for Plenum (Department of Geography UW)</p>
           </div>
         </div>
-      </m.div>
+      </m.section>
     </>
   )
 }
