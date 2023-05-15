@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e6b1ebd3.css",
-    "main.js": "/static/js/main.4db9c7f1.js",
+    "main.js": "/static/js/main.b6b884ca.js",
     "static/media/snorlax.gif": "/static/media/snorlax.827b584e82ac019139b5.gif",
     "static/media/me.JPG": "/static/media/me.ed48e6b3fe2a71c53ebe.JPG",
     "static/media/lgbtqspaces.png": "/static/media/lgbtqspaces.ce3c332b0e84fe6f4bec.png",
     "static/media/plenum-og-logo-raster.jpg": "/static/media/plenum-og-logo-raster.1460673ca556448651a5.jpg",
     "index.html": "/index.html",
     "main.e6b1ebd3.css.map": "/static/css/main.e6b1ebd3.css.map",
-    "main.4db9c7f1.js.map": "/static/js/main.4db9c7f1.js.map"
+    "main.b6b884ca.js.map": "/static/js/main.b6b884ca.js.map"
   },
   "entrypoints": [
     "static/css/main.e6b1ebd3.css",
-    "static/js/main.4db9c7f1.js"
+    "static/js/main.b6b884ca.js"
   ]
 }
