@@ -4,12 +4,12 @@ import { BrowserRouter} from "react-router-dom";
 import './index.css'
 import ReactGA from 'react-ga4';
 import React from 'react'
+const TRACKING_ID = 'G-NBC6G4GPG1';
+ReactGA.initialize(TRACKING_ID);
+ReactGA.send({hitType: "pageview", page: window.location.pathname});
 
 function App() {
-  const TRACKING_ID = 'G-NBC6G4GPG1';
-  ReactGA.initialize(TRACKING_ID);
-  ReactGA.pageView(document.location.pathname);
-  return (
+   return (
     <BrowserRouter>
       <NavBar/>
       <AnimatedRoutes />
