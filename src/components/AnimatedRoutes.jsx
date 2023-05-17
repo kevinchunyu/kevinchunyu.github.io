@@ -1,20 +1,17 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import {Routes, Route, useLocation} from "react-router-dom"
 import About from './about/About'
 import Projects from './projects/Projects'
 import Contact from './contact/contact'
 import Header from './header/Header'
 import { AnimatePresence } from 'framer-motion'
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
-const TRACKING_ID = 'G-3GM2TKFWG0';
+const TRACKING_ID = 'G-NBC6G4GPG1';
 ReactGA.initialize(TRACKING_ID);
 
 function AnimatedRoutes() {
     const location = useLocation();
-    useEffect(() => {
-        ReactGA.pageview(window.location.pathname + window.location.search);
-      }, []);
     return (
     <AnimatePresence>
         <Routes location={location} key={location.pathname}>
