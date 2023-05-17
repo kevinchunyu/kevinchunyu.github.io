@@ -5,10 +5,6 @@ import Projects from './projects/Projects'
 import Contact from './contact/contact'
 import Header from './header/Header'
 import { AnimatePresence } from 'framer-motion'
-import ReactGA from 'react-ga4';
-
-const TRACKING_ID = 'G-NBC6G4GPG1';
-ReactGA.initialize(TRACKING_ID);
 
 function AnimatedRoutes() {
     const location = useLocation();

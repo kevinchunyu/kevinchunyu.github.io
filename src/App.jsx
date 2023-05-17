@@ -5,10 +5,10 @@ import './index.css'
 import ReactGA from 'react-ga4';
 import React from 'react'
 
-const TRACKING_ID = 'G-NBC6G4GPG1';
-ReactGA.initialize(TRACKING_ID);
-
 function App() {
+  const TRACKING_ID = 'G-NBC6G4GPG1';
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.pageView(document.location.pathname);
   return (
     <BrowserRouter>
       <NavBar/>
