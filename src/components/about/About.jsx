@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me.JPG'
+import ME from '../../assets/me.jpg'
 import {motion as m} from 'framer-motion'
 
 const About = () => {
