@@ -19,28 +19,34 @@ function Projects() {
           <div className='projectContainerLeft'>
             <img id="kko" src={Kko} alt="kko logo"></img>
           </div>
-          <div className = 'projectContainerRight'>
-            <h3>kevinkochunyu.github.io</h3>
-            <p>My personal website</p>
-          </div>
+          <a href="https://kevinchunyu.github.io/" target="_blank">
+            <div className = 'projectContainerRight'>
+              <h3>kevinkochunyu.github.io</h3>
+              <p>My personal website</p>
+            </div>
+          </a>
         </div>
         <div className='projectContainer'>
           <div className='projectContainerLeft'>
             <img id="lgbtqspace" src={LGBTQSPACE} alt="lgbtqspaces project"></img>
           </div>
-          <div className = 'projectContainerRight'>
-            <h3>Shifting LGBTQ+ Spaces</h3>
-            <p>A geospatial platform mapping for LGBTQ+ friendly locations.</p>
-          </div>
+          <a href="https://lgbtqspaces.csde.washington.edu/" target="_blank">
+            <div className = 'projectContainerRight'>
+              <h3>Shifting LGBTQ+ Spaces</h3>
+              <p>A geospatial platform mapping for LGBTQ+ friendly locations.</p>
+            </div>
+          </a>
         </div>
         <div className='projectContainer'>
           <div className='projectContainerLeft'>
             <img id="plenum" src={Plenum} alt="plenum logo"></img>
           </div>
-          <div className = 'projectContainerRight'>
-            <h3>Plenum</h3>
-            <p>A website for Plenum (Department of Geography UW)</p>
-          </div>
+          <a href="http://students.washington.edu/plenum/index.html" target="_blank">
+            <div className = 'projectContainerRight'>
+              <h3>Plenum</h3>
+              <p>A website for Plenum (Department of Geography UW)</p>
+            </div>
+          </a>
         </div>
       </m.section>
     </>
