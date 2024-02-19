@@ -4,6 +4,10 @@ import About from './about/About'
 import Projects from './projects/Projects'
 import Contact from './contact/contact'
 import Header from './header/Header'
+
+import TradingStrategyPage from './projects/projectPage/TradingStrategy'
+import PersonalWebsitePage from './projects/projectPage/PersonalWebsite'
+import LGBTQSpaces from './projects/projectPage/LGBTQSpaces'
 import { AnimatePresence } from 'framer-motion'
 import ReactGA from 'react-ga4'
 
@@ -20,6 +24,9 @@ function AnimatedRoutes() {
             <Route path='about' element={<About />} />
             <Route path='projects' element={<Projects />} />
             <Route path='contact' element={<Contact />} />
+            <Route path='projects/tradingStrategy' element={<TradingStrategyPage />} />
+            <Route path='projects/personalWebsite' element={<PersonalWebsitePage />} />
+            <Route path='projects/lgbtqspaces' element={<LGBTQSpaces />} />
         </Routes>
     </AnimatePresence>
   )

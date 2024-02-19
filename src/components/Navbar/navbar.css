@@ -7,3 +7,6 @@
     padding-right: 3rem;
 }
 
+.linkDiv:hover {
+    text-decoration: underline;
+}

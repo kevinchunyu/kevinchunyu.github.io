@@ -1,56 +1,55 @@
-import React from 'react'
-import './Projects.css'
-import Snorlax from '../../assets/snorlax.gif'
-import LGBTQSPACE from '../../assets/lgbtqspaces.png'
-import Plenum from '../../assets/plenum-og-logo-raster.jpg'
-import Kko from '../../assets/kko.png'
-import {motion as m} from 'framer-motion'
+import './Projects.css';
+import StockBG from '../../assets/stock_bg.jpeg';
+import LGBTQSPACE from '../../assets/lgbtqspaces.png';
+import Plenum from '../../assets/plenum-og-logo-raster.jpg';
+import Kko from '../../assets/kko.png';
+import ProjectCard from './ProjectCard';
+import { motion as m } from 'framer-motion';
+import {Link} from 'react-router-dom'
+
+// Projects.js
 
 function Projects() {
   return (
-    <>
-      <m.section className="allProjectContainer"
-        intial={{opacity: 0}}
-        animate={{opacity: 1}}
-        exit={{opacity: 0}}
-      >
-        {/* one div is one project card*/}
-        <div className='projectContainer'>
-          <div className='projectContainerLeft'>
-            <img id="kko" src={Kko} alt="kko logo"></img>
-          </div>
-          <a href="https://kevinchunyu.github.io/" target="_blank">
-            <div className = 'projectContainerRight'>
-              <h3>kevinkochunyu.github.io</h3>
-              <p>My personal website</p>
-            </div>
-          </a>
-        </div>
-        <div className='projectContainer'>
-          <div className='projectContainerLeft'>
-            <img id="lgbtqspace" src={LGBTQSPACE} alt="lgbtqspaces project"></img>
-          </div>
-          <a href="https://lgbtqspaces.csde.washington.edu/" target="_blank">
-            <div className = 'projectContainerRight'>
-              <h3>Shifting LGBTQ+ Spaces</h3>
-              <p>A geospatial platform mapping for LGBTQ+ friendly locations.</p>
-            </div>
-          </a>
-        </div>
-        <div className='projectContainer'>
-          <div className='projectContainerLeft'>
-            <img id="plenum" src={Plenum} alt="plenum logo"></img>
-          </div>
-          <a href="http://students.washington.edu/plenum/index.html" target="_blank">
-            <div className = 'projectContainerRight'>
-              <h3>Plenum</h3>
-              <p>A website for Plenum (Department of Geography UW)</p>
-            </div>
-          </a>
-        </div>
-      </m.section>
-    </>
-  )
+    <m.section
+        className="allProjectContainer"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+    >
+        <Link to="/projects/tradingStrategy">
+          <ProjectCard
+            imgSrc={StockBG}
+            projectName="Trading Strategy Evaluation"
+            projectDescr="Will I beat the market?"
+          />
+        </Link>
+
+        <Link to="/projects/personalWebsite">
+          <ProjectCard
+            imgSrc={Kko}
+            projectName="kevinkochunyu.github.io"
+            projectDescr="My personal website"
+          />
+        </Link>
+
+        <Link to="/projects/lgbtqspaces">
+          <ProjectCard
+            imgSrc={LGBTQSPACE}
+            projectName="Shifting LGBTQ+ Spaces"
+            projectDescr="A geospatial platform mapping for LGBTQ+ friendly locations"
+          />
+        </Link>
+
+        <a href="https://students.washington.edu/plenum/" target="_blank">
+          <ProjectCard
+            imgSrc={Plenum}
+            projectName="Plenum"
+            projectDescr="A website for Plenum (Department of Geography UW)"
+          />
+        </a>
+    </m.section>
+  );
 }
 
-export default Projects
+export default Projects;
