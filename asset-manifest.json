@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e3bbab7.css",
-    "main.js": "/static/js/main.14248186.js",
-    "static/media/snorlax.gif": "/static/media/snorlax.827b584e82ac019139b5.gif",
+    "main.css": "/static/css/main.f9bc02c5.css",
+    "main.js": "/static/js/main.528626b5.js",
     "static/media/me.jpg": "/static/media/me.ed48e6b3fe2a71c53ebe.jpg",
     "static/media/lgbtqspaces.png": "/static/media/lgbtqspaces.ce3c332b0e84fe6f4bec.png",
     "static/media/plenum-og-logo-raster.jpg": "/static/media/plenum-og-logo-raster.1460673ca556448651a5.jpg",
+    "static/media/stock_bg.jpeg": "/static/media/stock_bg.f354746ea52e99f09a33.jpeg",
+    "static/media/lgbtqspaces.md": "/static/media/lgbtqspaces.99d7ceaea9a70db11412.md",
+    "static/media/test.md": "/static/media/test.b74a055c8d6189c2d837.md",
     "index.html": "/index.html",
-    "main.4e3bbab7.css.map": "/static/css/main.4e3bbab7.css.map",
-    "main.14248186.js.map": "/static/js/main.14248186.js.map"
+    "static/media/personalwebsite.md": "/static/media/personalwebsite.adc5550885ec2a00020e.md",
+    "main.f9bc02c5.css.map": "/static/css/main.f9bc02c5.css.map",
+    "main.528626b5.js.map": "/static/js/main.528626b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e3bbab7.css",
-    "static/js/main.14248186.js"
+    "static/css/main.f9bc02c5.css",
+    "static/js/main.528626b5.js"
   ]
 }
