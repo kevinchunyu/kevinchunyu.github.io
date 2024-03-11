@@ -2,6 +2,8 @@
 Built with: Python   
 Packages used: NumPy, Pandas, Matplotlib   
 
+![](https://personalprofessionaldevelopment.s3.us-west-1.amazonaws.com/insample_e1.png)
+
 Implemented three strategies: benchmark, manual, and strategy learners to experiment and compare portfolio value performances.
 Obtained stock data from Yahoo Finance, utilizing adjusted close prices to develop trading strategies.
 
@@ -14,3 +16,11 @@ Obtained stock data from Yahoo Finance, utilizing adjusted close prices to devel
 
 Results: Displayed the performance image on JPM and different time periods.
 The findings revealed a consistently outperforming manual strategy in comparison to the benchmark. The strategy learning approach using machine learning demonstrated decent results, although it required significant expertise and hyperparameter tuning. This underscores the complexity of beating the market and the importance of thorough analysis and optimization in trading strategies.
+
+
+The graph below shows the out-sample data performance.   
+
+![](https://personalprofessionaldevelopment.s3.us-west-1.amazonaws.com/outofsample_e1.png)   
+
+
+Seems like both strategies seem to outperform the benchmark! Maybe I should try implementing this to a mini-broker account? Another experiment for another time :)    

@@ -172,4 +172,8 @@ a:hover {
     html {
         font-size: 90%;
     }
+
+    .projectTitle {
+        align-self: center;
+    }
 }
