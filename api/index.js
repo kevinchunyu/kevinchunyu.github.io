@@ -26,7 +26,7 @@ connection.once('open', () => {
 })
 
 const projectsRouter = require('./routes/projects');
-app.use('/.netlify/functions/app/api/projects', projectsRouter);
+app.use('/.netlify/api', projectsRouter);
 
 app.use('/api/projects', projectsRouter);
 
