@@ -1,9 +1,0 @@
-[build]
-  functions = "api"  # Directory where your backend serverless functions reside
-[[redirects]]
-  force = true
-  from = "/api/*"
-  status = 200
-  to = "/.netlify/api/:splat"
-[functions]
-  node_bundler = "esbuild"
