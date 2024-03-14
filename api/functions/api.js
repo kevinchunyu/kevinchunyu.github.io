@@ -28,4 +28,11 @@ connection.once('open', () => {
 const projectsRouter = require('../routes/projects');
 app.use('/', projectsRouter);
 
+
+// Add a middleware function to disconnect from MongoDB after handling the request
+app.use((req, res, next) => {
+  mongoose.disconnect();
+  next();
+});
+
 module.exports.handler = serverless(app);
