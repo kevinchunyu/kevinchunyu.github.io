@@ -28,6 +28,4 @@ connection.once('open', () => {
 const projectsRouter = require('./routes/projects');
 app.use('/.netlify/api', projectsRouter);
 
-app.use('/api/projects', projectsRouter);
-
 module.exports.handler = serverless(app);
