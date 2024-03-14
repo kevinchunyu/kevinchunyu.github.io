@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # Command to build your frontend
+  functions = "api/"  # Directory where your backend serverless functions reside
+[[redirects]]
+  force = true
+  from = "/api/*"
+  status = 200
+  to = "/.netlify/functions/api/:splat"
