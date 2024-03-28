@@ -13,7 +13,7 @@ This was a part-time/contract Software Engineer project to visualize power outag
 **What is Seattle City Light?**    
 - "Seattle City Light is the public utility providing electricity to Seattle, Washington, in the United States, and parts of its metropolitan area, including all of Shoreline, nearly all of Lake Forest Park, and parts of unincorporated King County, Burien, Normandy Park, SeaTac, Renton, and Tukwila."   
 
-### Challenges:
+### **Challenges:**
     - To database or not to database?      
         One of the biggest challenge was choosing whether or not to use a database. Because development started locally, hooking up to a database meant requesting resources and credentials from Seattle City Light (which I did not readily have)... So the decision was to try to efficiently read in different csv files when rendering the visualization so that there was minimal lag for the user.     
     - When is too much features? When is too little?     
