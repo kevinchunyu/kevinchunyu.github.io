@@ -1,15 +1,6 @@
 const router = require('express').Router();
 const Project = require('../models/projects.model');
 
-router.get('/json', (req , res) => {
-    res.json(
-        {
-            'path' : 'json',
-            'author': 'testing'
-        }
-    ); 
-});
-
 router.get('/getAllProjects', async (req, res) => {
     try {
         const projects = await Project.find();
