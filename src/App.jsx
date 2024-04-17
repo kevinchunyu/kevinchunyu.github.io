@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await axios.get('/getAllProjects');
+        const response = await axios.get('https://kevinko.netlify.app/getAllProjects');
         setProjects(response.data);
       } catch (error) {
         console.error('Error fetching projects:', error);

@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from "remark-gfm";
 import './ProjectPage.css'
 
 function ProjectPage({ projects }) {
@@ -23,7 +24,8 @@ function ProjectPage({ projects }) {
   }, []);
 
   return (
-    <ReactMarkdown className='text-page'>
+    <ReactMarkdown className='text-page' remarkPlugins={[remarkGfm]}
+    >
       {text}
     </ReactMarkdown>
   );

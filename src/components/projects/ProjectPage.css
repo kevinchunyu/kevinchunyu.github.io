@@ -5,3 +5,14 @@
     color: black;
     font-family: "Times New Roman", Times, serif;
 }
+
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 6px 13px;
+    border: 1px solid black;
+}
