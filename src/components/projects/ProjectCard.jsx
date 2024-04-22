@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 
-function ProjectCard({ imgSrc, projectName, projectDescr, projectCategory, projectSkills, onClick }) {
+function ProjectCard({ projectName, projectDescr, projectCategory, projectSkills, onClick }) {
   return (
     <div className='projectContainer' onClick={onClick}>
       <div className='projectContainerRight'>
