@@ -31,13 +31,13 @@ function Projects() {
       projects: [
         {
           id: 'internet-weather',
-          title: 'internet weather map',
+          title: 'internet weather map (in progress...)',
           description: 'research project visualizing and analyzing global internet health metrics',
           tools: 'python, data visualization, network analysis'
         },
         {
           id: 'devsecops',
-          title: 'devsecops tutorial platform',
+          title: 'devsecops tutorial platform (in progress...)',
           description: 'tutorial-based web platform teaching azure-based CI/CD concepts, containerization, and security testing',
           tools: 'azure, docker, ZAP, selenium, sonarqube'
         },
@@ -71,7 +71,8 @@ function Projects() {
           id: 'algo-trading',
           title: 'algorithmic trading strategies',
           description: 'teaching assistant for CS7646, developing and evaluating machine learning models for financial markets',
-          tools: 'python, machine learning, data structures, financial analysis'
+          tools: 'python, machine learning, data structures, financial analysis',
+          link: 'https://omscs.gatech.edu/cs-7646-machine-learning-trading'
         }
       ]
     }

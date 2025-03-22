@@ -22,6 +22,11 @@ const About = () => {
         Over time, that curiosity led me deeper into cybersecurity, where I now explore how to build secure software. 
         <br/>
         <br/>
+        My coding journey started in 2018, with data structures and algorithms. 2019, with web development and databases. 
+        Since then, I’ve spent the past 6 years honing my skills across different stacks, 
+        building REST APIs, building mapping frontends, teaching ML algorithms, designed and built relational databases, and more. 
+        <br/>
+        <br/>
         Balancing a dual Master's program while contributing to multiple projects has taught me to be a 
         quick learner, a self-starter, and someone who takes ownership of delivering results under tight deadlines. 
         While I may not always be the smartest person in the room, I take pride in my strong work ethic, 
