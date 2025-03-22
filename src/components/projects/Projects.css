@@ -1,44 +1,158 @@
-.allProjectContainer{
+/* Projects.css */
+#projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  #projects h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+    color: #2c3e50;
+  }
+  
+  /* Filter styles */
+  .project-filter {
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 1em;
-    margin: 0 10em 0 10em;
-}
-
-.projectContainer {
-    display: flex;
-    transition: all ease 200ms;
-}
-
-.projectContainer:hover {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .filter-btn {
+    background: none;
+    border: 1px solid #e0e0e0;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
     cursor: pointer;
-    border-bottom: solid;
-    width: 100%;
-}
-
-.projectContainerRight {
-    padding: 0em 0em 1em 0;
-}
-
-.category {
-    background: #008CBA;
-    display: inline-block;
-    border-radius: 7%;
-    padding: 0 5px 0 5px;
-    color: #e4e3e3;
-    margin-right: 0.5em;
-}
-
-img {
-    height: 100%;
-    padding: 1em;
-    border-radius: 20px;
-    width: 100%;
-    opacity: 0.6;
-
-}
-
-.projectTitle {
-    border-bottom: solid;
-}
+    text-transform: lowercase;
+    transition: all 0.2s ease;
+    color: #666;
+  }
+  
+  .filter-btn:hover {
+    border-color: #3498db;
+    color: #3498db;
+  }
+  
+  .filter-btn.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+  }
+  
+  .resume-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .resume-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    color: #3498db;
+  }
+  
+  .resume-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resume-list li {
+    margin-bottom: 1.25rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .resume-list li:hover {
+    background-color: #f7fbff;
+  }
+  
+  .resume-item-title {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    text-transform: lowercase;
+    color: #2c3e50;
+  }
+  
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+  }
+  
+  .project-link:hover {
+    opacity: 1;
+  }
+  
+  .link-icon {
+    font-size: 0.9rem;
+  }
+  
+  .resume-item-detail {
+    display: block;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    text-transform: lowercase;
+    text-align: justify;
+  }
+  
+  .project-tools {
+    display: block;
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+    text-transform: lowercase;
+    border-left: 3px solid #3498db;
+    padding-left: 0.5rem;
+    margin-top: 0.4rem;
+  }
+  
+  /* Category-specific colors */
+  .cybersecurity-section h3 {
+    color: #e74c3c; /* Cybersecurity - red */
+  }
+  
+  .cybersecurity-section .project-tools {
+    border-left-color: #e74c3c;
+  }
+  
+  .web-section h3 {
+    color: #3498db; /* Web Development - blue */
+  }
+  
+  .web-section .project-tools {
+    border-left-color: #3498db;
+  }
+  
+  .data-section h3 {
+    color: #2ecc71; /* Data Science - green */
+  }
+  
+  .data-section .project-tools {
+    border-left-color: #2ecc71;
+  }
+  
+  @media (max-width: 768px) {
+    #projects {
+      padding: 0.75rem;
+    }
+  }

@@ -1,11 +1,112 @@
+/* contact.css */
 #contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-#contact__content {
-    max-width: 30rem;
-    margin: 2rem;
+#contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+  color: #2c3e50;
+}
+
+.contact-content {
+  margin-bottom: 2rem;
+}
+
+.contact-intro {
+  margin-bottom: 2rem;
+  color: #666;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 0.5rem 0.9rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #2c3e50;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease;
+  text-transform: lowercase;
+  font-size: 0.9rem;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  border-color: #3498db;
+}
+
+.social-icon-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+  object-fit: contain;
+}
+
+.contact-details {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1.5rem;
+}
+
+.resume-item {
+  margin-bottom: 1rem;
+}
+
+.resume-item-title {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  text-transform: lowercase;
+  color: #2c3e50;
+}
+
+.resume-item-detail {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+}
+
+.resume-item-detail a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.resume-item-detail a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    gap: 0.5rem;
+  }
+  
+  .social-link {
+    padding: 0.5rem 0.75rem;
+    width: calc(50% - 0.25rem);
+  }
+  
+  .contact-details {
+    padding-top: 1rem;
+  }
 }

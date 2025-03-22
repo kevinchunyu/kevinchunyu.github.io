@@ -5,8 +5,15 @@
     gap: 1rem;
     height: 5rem;
     padding-right: 3rem;
+    position: relative;
+    z-index: 10;
 }
 
 .linkDiv:hover {
     text-decoration: underline;
+}
+
+nav {
+    position: relative;
+    z-index: 10; 
 }
