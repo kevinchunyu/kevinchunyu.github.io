@@ -1,6 +1,6 @@
 import NavBar from './components/Navbar/Navbar'
 import AnimatedRoutes from './components/AnimatedRoutes'
-import { BrowserRouter} from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import './index.css'
 import ReactGA from 'react-ga4';
 
@@ -11,13 +11,13 @@ function App() {
   ReactGA.send({hitType: "pageview", page: window.location.pathname});
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app-background"></div>
       <div className="app-background-overlay"></div>
 
       <NavBar/>
       <AnimatedRoutes />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
