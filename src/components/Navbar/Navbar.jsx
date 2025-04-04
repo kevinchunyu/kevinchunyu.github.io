@@ -6,6 +6,9 @@ function Navbar() {
   return (
     <nav>
         <div className='linkContainer'>
+          Kevin Ko | Software Engineer
+        </div>
+        <div className='linkContainer'>
           <div className='linkDiv'>
             <NavLink to="/">home</NavLink>
           </div>
