@@ -13,25 +13,25 @@ const About = () => {
     >
       <h2>about me</h2>
       <p>
-        Hi! I’m Kevin Ko — a recent University of Washington graduate, now a Software Engineer at AWS and 
-        currently also pursuing my Master’s in Computer Science at Georgia Tech - Machine Learning Specialization.
+        Hi! I’m Kevin Ko - a recent University of Washington graduate, now a Software Engineer at AWS,
+        and currently pursuing my Master’s in Computer Science at Georgia Tech with a specialization in Machine Learning.
         <br />
         <br />
-        I’ve always been curious about how things work—whether in technology, people, or the world around me. 
-        Growing up between different languages and cultures taught me how to adapt, and that same curiosity 
-        led me to explore a wide range of paths: from building maps and coding full-stack apps, 
-        to studying economics and
+        I’ve always been curious about how things work - whether in technology, people, or the world around me.
+        I’m Taiwanese and grew up in Indonesia. Living between different languages and cultures taught me how to adapt and stay curious.
+        That same curiosity led me to explore a wide range of paths: from building maps and coding full-stack apps to studying
+        Economics and
         <a href="https://en.wikipedia.org/wiki/Efficient-market_hypothesis" target="_blank">
-        &nbsp;experimenting with trading for profit :) </a>
+        &nbsp;experiment with trading  :) </a>
         <br />
         <br />
-        Since starting my coding journey in 2018, I’ve built REST APIs, mapping tools, relational databases, and taught machine learning
-        concepts as a Teaching Assistant. Balancing school, work, and projects has taught me to adapt quickly, 
-        take ownership, and deliver results.
+        Since starting my coding journey in 2018, I’ve built APIs, mapping tools, and relational databases,
+        and I’ve also taught machine learning concepts as a Teaching Assistant. Balancing school, work, and personal
+        projects has taught me to adapt quickly, take ownership, and deliver results.
         <br />
         <br />
-        Outside of the technical side, I value persistence, collaboration, and curiosity. 
-        I may not always have the answers right away, but I’m al ays ready to learn, ask questions, and put in the work to grow.
+        I value persistence, collaboration, and curiosity. I may not always have the answers right away, but I’m always
+        ready to learn, ask questions, and put in the work to grow.
         <br />
         <br />
         Welcome to my site! I’m glad you’re here! &#x1F44B;
@@ -72,7 +72,7 @@ const About = () => {
         </li>
         <li>
           <span className="resume-item-title">devops & cloud</span>
-          <span className="resume-item-detail">docker, git, jenkins, terraform, AWS EC2, Azure ECR</span>
+          <span className="resume-item-detail">AWS, docker, git, jenkins, terraform, Azure</span>
         </li>
         <li>
           <span className="resume-item-title">fluently spoken languages</span>
@@ -82,7 +82,7 @@ const About = () => {
       </div>
 
       <div className="resume-section">
-        <h3>other fun stuff</h3>
+        <h3>other fun stuff that i do</h3>
         <ul className="resume-list">
           <li>
             <span className="resume-item-title">scuba diving</span>
@@ -90,7 +90,11 @@ const About = () => {
           </li>
           <li>
             <span className="resume-item-title">sports</span>
-            <span className="resume-item-detail">basketball, swimming, fantasy sports, formula one, gym</span>
+            <span className="resume-item-detail">basketball, swimming, fantasy basketball :), formula one, gym</span>
+          </li>
+          <li>
+            <span className="resume-item-title">explore good food</span>
+            <span className="resume-item-detail">ask me for recs! @instagram: kevinko511</span>
           </li>
         </ul>
       </div>
