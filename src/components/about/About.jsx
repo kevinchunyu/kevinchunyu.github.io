@@ -13,25 +13,28 @@ const About = () => {
     >
       <h2>about me</h2>
       <p>
-        Hi! I'm Kevin Ko, and I'm set to graduate the University of Washington in June of 2025. 
-        I've always been curious about how 
-        things work—whether it's tech, people, or the world around me. I grew up speaking multiple languages, 
-        bouncing between cultures, and eventually found my way into building maps. 
-        From there, I dove into the world of full-stack development, transforming data into meaningful 
-        visualizations and tools. 
-        Over time, that curiosity led me deeper into cybersecurity, where I now explore how to build secure software. 
-        <br/>
-        <br/>
-        My coding journey started in 2018, with data structures and algorithms. 2019, with web development and databases. 
-        Since then, I’ve spent the past 6 years honing my skills across different stacks, 
-        building REST APIs, building mapping frontends, teaching ML algorithms, designed and built relational databases, and more. 
-        <br/>
-        <br/>
-        Balancing a dual Master's program while contributing to multiple projects has taught me to be a 
-        quick learner, a self-starter, and someone who takes ownership of delivering results under tight deadlines. 
-        While I may not always be the smartest person in the room, I take pride in my strong work ethic, 
-        persistence, and dedication to growth. I'm eager to learn from those around me and never hesitate
-        to ask questions—because I believe the best ideas often come from collaboration and curiosity.
+        Hi! I’m Kevin Ko — a recent University of Washington graduate, now a Software Engineer at AWS and 
+        currently also pursuing my Master’s in Computer Science at Georgia Tech - Machine Learning Specialization.
+        <br />
+        <br />
+        I’ve always been curious about how things work—whether in technology, people, or the world around me. 
+        Growing up between different languages and cultures taught me how to adapt, and that same curiosity 
+        led me to explore a wide range of paths: from building maps and coding full-stack apps, 
+        to studying economics and
+        <a href="https://en.wikipedia.org/wiki/Efficient-market_hypothesis" target="_blank">
+        &nbsp;experimenting with trading for profit :) </a>
+        <br />
+        <br />
+        Since starting my coding journey in 2018, I’ve built REST APIs, mapping tools, relational databases, and taught machine learning
+        concepts as a Teaching Assistant. Balancing school, work, and projects has taught me to adapt quickly, 
+        take ownership, and deliver results.
+        <br />
+        <br />
+        Outside of the technical side, I value persistence, collaboration, and curiosity. 
+        I may not always have the answers right away, but I’m al ays ready to learn, ask questions, and put in the work to grow.
+        <br />
+        <br />
+        Welcome to my site! I’m glad you’re here! &#x1F44B;
       </p>
 
       <div className="resume-section">

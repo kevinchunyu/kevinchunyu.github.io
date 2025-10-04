@@ -20,6 +20,10 @@
   text-align: justify;
 }
 
+#about a {
+  color: #0d98ba;
+}
+
 .resume-section {
   margin-bottom: 1.5rem;
 }

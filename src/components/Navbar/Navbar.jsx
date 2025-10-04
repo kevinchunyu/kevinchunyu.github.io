@@ -5,8 +5,8 @@ import './navbar.css'
 function Navbar() {
   return (
     <nav>
-        <div className='linkContainer'>
-          Kevin Ko | Software Engineer
+        <div id='name' className='linkContainer'>
+          Kevin Ko
         </div>
         <div className='linkContainer'>
           <div className='linkDiv'>
@@ -19,10 +19,6 @@ function Navbar() {
           .
           <div className='linkDiv'>
             <NavLink to="/projects">projects</NavLink>
-          </div>
-          .
-          <div className='linkDiv'>
-            <a href='https://personalprofessionaldevelopment.s3.us-west-1.amazonaws.com/kkoresume.pdf' target='_blank'>resume</a>
           </div>
           .
           <div className='linkDiv'>

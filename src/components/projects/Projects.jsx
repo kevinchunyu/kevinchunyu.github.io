@@ -4,7 +4,7 @@ import { motion as m } from 'framer-motion';
 
 function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
-  
+
   // Project data structured as an array of objects
   const projectData = [
     {
@@ -31,15 +31,16 @@ function Projects() {
       projects: [
         {
           id: 'internet-weather',
-          title: 'internet weather map (in progress...)',
-          description: 'research project visualizing and analyzing global internet health metrics',
+          title: 'internet weather map',
+          description: 'research project visualizing undersea internet cables',
           tools: 'python, data visualization, network analysis'
         },
         {
           id: 'devsecops',
-          title: 'devsecops tutorial platform (in progress...)',
+          title: 'devsecops tutorial platform',
           description: 'tutorial-based web platform teaching azure-based CI/CD concepts, containerization, and security testing',
-          tools: 'azure, docker, ZAP, selenium, sonarqube'
+          tools: 'azure, docker, ZAP, selenium, sonarqube',
+          link: 'https://github.com/open-devsecops'
         },
         {
           id: 'seattle-outage',
@@ -77,7 +78,7 @@ function Projects() {
       ]
     }
   ];
-  
+
   // Filter categories derived from the projectData
   const filterCategories = [
     { id: 'all', label: 'all projects' },
