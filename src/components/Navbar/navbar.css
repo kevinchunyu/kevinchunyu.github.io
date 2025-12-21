@@ -3,7 +3,6 @@
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
-    height: 5rem;
     padding-left: 3rem;
     padding-right: 3rem;
     position: relative;
@@ -22,5 +21,42 @@ nav {
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 5rem;
     z-index: 10;
+    flex-shrink: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Medium devices */
+@media screen and (max-width: 1024px) {
+    nav {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .linkContainer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        gap: 0.75rem;
+    }
+}
+
+/* Small devices */
+@media screen and (max-width: 600px) {
+    nav {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    
+    .linkContainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 0.5rem;
+    }
+    
+    #name {
+        padding-left: 0.5rem;
+    }
 }

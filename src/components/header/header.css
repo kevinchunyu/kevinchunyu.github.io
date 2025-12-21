@@ -1,65 +1,61 @@
-#header {
-    position: absolute;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
-    margin: auto;
-    z-index: 0;
+/* Root header container */
+.header {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 5rem); /* Account for navbar (5rem) */
+  overflow: hidden;
 }
 
-.three-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    overflow: hidden;
-  }
-  
-  .header__container {
-    position: relative; 
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* etc. */
-  }
-  
-  .under-line {
-    text-decoration: underline;
-  }
-  
-/* ensure globe is in the center of page */
-.globe_container {
-    position: absolute;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
-    margin: auto;
+/* Three.js layer fills the header */
+.three-layer {
+  position: absolute;
+  inset: 0;            /* top/right/bottom/left = 0 */
+  z-index: 0;
 }
 
+/* Make sure the canvas truly fills the layer */
+.three-layer canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
+/* Foreground content stays centered and above globe */
 .header__container {
-    text-align: center;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  z-index: 1;
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 2rem;
 }
 
 .h_name_container {
-    background: rgba(239, 239, 240, .7)    /*  40% opaque green */ 
+  background: rgba(239, 239, 240, 0.7);
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
 }
 
-/* ===================== MEDIA QUERIES (MEDIUM DEVICES) =========== */
+/* Optional underline utility */
+.under-line {
+  text-decoration: underline;
+}
+
+/* Medium devices */
 @media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
+  .header {
+    height: calc(68vh - 5rem);
+  }
 }
 
-/* ===================== MEDIA QUERIES (SMALL DEVICES) =========== */
+/* Small devices */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
+  .header {
+    height: calc(100vh - 5rem);
+  }
 }
