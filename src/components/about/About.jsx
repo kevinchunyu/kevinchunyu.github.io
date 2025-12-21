@@ -94,7 +94,7 @@ const About = () => {
           </li>
           <li>
             <span className="resume-item-title">explore good food</span>
-            <span className="resume-item-detail">ask me for recs! @instagram: kevinko511</span>
+            <span className="resume-item-detail">ask me for recs!</span>
           </li>
         </ul>
       </div>

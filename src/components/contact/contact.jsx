@@ -49,7 +49,7 @@ function Contact() {
           <div className="resume-item">
             <span className="resume-item-title">send me an email</span>
             <span className="resume-item-detail">
-              <a href="mailto:kevin11@uw.edu">kevin11@uw.edu</a>
+              <a href="mailto:kevinkcy511@gmail.com">kevinkcy511@gmail.com</a>
             </span>
           </div>
           
