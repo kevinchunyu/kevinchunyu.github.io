@@ -60,7 +60,7 @@ function Contact() {
           
           <div className="resume-item">
             <span className="resume-item-title">open to</span>
-            <span className="resume-item-detail">full-time opportunities, freelance projects</span>
+            <span className="resume-item-detail">talking, opportunities, and coffee</span>
           </div>
         </div>
       </div>

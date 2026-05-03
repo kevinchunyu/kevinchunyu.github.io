@@ -41,11 +41,11 @@ const About = () => {
         <h3>education</h3>
         <ul className="resume-list">
           <li>
-            <span className="resume-item-title">master of computer science (machine learning specialization)</span>
+            <span className="resume-item-title">master of computer science</span>
             <span className="resume-item-detail">georgia institute of technology, june 2025</span>
           </li>
           <li>
-            <span className="resume-item-title">master of information management (data science & cybersecurity track)</span>
+            <span className="resume-item-title">master of information management</span>
             <span className="resume-item-detail">university of washington, june 2025</span>
           </li>
           <li>
